@@ -20,3 +20,19 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@aidan-bn](https://github.com/aidan-bn)
 - Twitter: [@aidan-bn](https://twitter.com/aidan-bn)
 - LinkedIn: [Aidan-bn](https://linkedin.com/in/aidan-bn)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

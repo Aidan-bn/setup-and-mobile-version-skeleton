@@ -103,7 +103,7 @@ nav {
   text-align: center;
   margin: auto;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 28px;
   line-height: 52px;
   color: #172b4d;
   top: 158px;
@@ -161,7 +161,6 @@ nav {
 }
 
 .act {
-  position: absolute;
   padding: 8px;
   width: 40px;
   height: 40px;
