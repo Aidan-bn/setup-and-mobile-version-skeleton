@@ -11,9 +11,6 @@ header {
   width: 375px;
   display: flex;
   height: 48px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
   top: 44px;
   color: #181e25;
   justify-content: space-between;
