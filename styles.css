@@ -260,7 +260,7 @@ nav {
   font-size: 12px;
   font-weight: 600;
   margin: 1px;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   width: 82px;
   height: 32px;
@@ -276,7 +276,7 @@ nav {
   font-size: 12px;
   font-weight: 600;
   margin: 1px;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   height: 32px;
   padding: 8px 2px;
@@ -327,12 +327,11 @@ nav {
   padding: 64px 24px 64px 24px;
 }
 
-
 .imgabtwo {
   position: absolute;
   top: 70px;
   right: 70px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .imgabtone {
@@ -397,14 +396,14 @@ nav {
   margin-bottom: 30px;
 }
 
-.language-list{
+.language-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }
 
-.li-language-list{
+.li-language-list {
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -422,7 +421,7 @@ nav {
   text-align: center;
 }
 
-.li-language-list-on{
+.li-language-list-on {
   justify-content: center;
   align-items: center;
   list-style: none;
