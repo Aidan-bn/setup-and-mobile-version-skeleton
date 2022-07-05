@@ -396,13 +396,16 @@ nav {
   margin-bottom: 30px;
 }
 
-.language-list {
+/* .language-list {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-inline-start: 0;
+} */
+.language-list {
+  float: left;
+  text-align: center;
 }
-
 .li-language-list {
   justify-content: center;
   align-items: center;
