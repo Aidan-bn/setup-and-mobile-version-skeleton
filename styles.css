@@ -344,14 +344,12 @@ nav {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   color: #42526e;
-  border: 2px solid red;
   width: 375px;
   height: 189px;
   font-size: 20px;
   font-style: normal;
   line-height: 32px;
   text-align: center;
-  border: 2px solid red;
 }
 
 .resume button {
@@ -454,7 +452,6 @@ nav {
   position: relative;
   flex-direction: column;
   align-items: center;
-  border: 2px solid red;
 }
 
 .con-form {
@@ -533,28 +530,14 @@ textarea {
   gap: 24px;
 }
 
-<<<<<<< HEAD
 .footeremail {
   width: 375px;
   height: 189px;
-=======
-.footeremail p {
-  width: 330px;
-  height: 190px;
->>>>>>> 23d4267ba2662b399e7005e06459b6565fc496b2
-  font-size: 20px;
-  font-style: normal;
-  line-height: 32px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: #42526e;
-  border: 2px solid red;
 }
 
 .footeremail p {
-  width: 375px;
-  height: 189px;
+  width: 330px;
+  height: 190px;
   font-size: 20px;
   font-style: normal;
   line-height: 32px;
@@ -562,7 +545,6 @@ textarea {
   justify-content: center;
   align-items: center;
   color: #42526e;
-  border: 2px solid red;
 }
 
 .sharpblack {
@@ -572,11 +554,11 @@ textarea {
   justify-content: center;
 }
 
-.contact-illustration{
+.contact-illustration {
   position: absolute;
   left: 85.43%;
   top: 580px;
-  }
+}
 
 .mbili {
   display: flex;
@@ -585,17 +567,12 @@ textarea {
 }
 
 button:hover {
-  background: #36B37F;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
-  border-radius: 4px;
-}
-
-button:pressed {
-  background: #008552;
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
 button:enabled {
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
 }
