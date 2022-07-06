@@ -343,9 +343,13 @@ nav {
 .aboutme-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  color: #42526e;
+  width: 375px;
+  height: 189px;
   font-size: 20px;
+  font-style: normal;
   line-height: 32px;
-  margin-top: 12px;
+  text-align: center;
 }
 
 .resume button {
@@ -370,6 +374,7 @@ nav {
   display: grid;
   grid-template-rows: repeat(3, 327px);
   justify-content: center;
+  padding-inline-start: 0;
   grid-row-gap: 40px;
 }
 
@@ -435,4 +440,139 @@ nav {
   font-size: 12px;
   font-weight: 600;
   height: 40px;
+}
+
+/* bottom form */
+.contact-form {
+  height: 879px;
+  width: 365px;
+  margin: auto;
+  gap: 24px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con-form {
+  display: flex;
+}
+
+.form {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  gap: 24px;
+  width: 327px;
+  height: 363px;
+  color: #172b4d;
+  display: flex;
+  flex-direction: column;
+}
+
+.pre-text {
+  width: 327px;
+  height: 363px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  padding: 64px 24px;
+  line-height: 52px;
+  color: #172b4d;
+  position: relative;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  left: opx;
+  right: opx;
+  top: calc(50% - 48px / 2);
+  border-radius: 4px;
+  border: 1px solid #2c3631;
+  background-color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 12px;
+}
+
+textarea {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 12px;
+  height: 114px;
+  width: 327px;
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footeremail {
+  width: 375px;
+  height: 189px;
+}
+
+.footeremail p {
+  width: 330px;
+  height: 190px;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #42526e;
+}
+
+.sharpblack {
+  width: 327px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-illustration {
+  position: absolute;
+  left: 85.43%;
+  top: 580px;
+}
+
+.mbili {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+button:enabled {
+  background: #36b37f;
+  border-radius: 4px;
 }
