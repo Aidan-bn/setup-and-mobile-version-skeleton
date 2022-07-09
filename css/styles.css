@@ -287,7 +287,7 @@ h5 {
 .work {
   display: flex;
   flex-direction: column;
-  padding: 80px 0px;
+  padding: 80px 0.001px;
   gap: 48px;
   margin: auto;
 }
@@ -844,13 +844,17 @@ textarea {
   }
 }
 
-.btn-action:hover, button:hover, .btn-primary:hover {
+.btn-action:hover,
+button:hover,
+.btn-primary:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
-button:enabled, .btn-action:enabled, .btn-primary:enabled {
+button:enabled,
+.btn-action:enabled,
+.btn-primary:enabled {
   background: #36b37f;
   border-radius: 4px;
 }
