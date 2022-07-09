@@ -291,8 +291,8 @@ h5 {
   gap: 48px;
   margin: auto;
   max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .work-text {
@@ -315,7 +315,7 @@ h5 {
   grid-gap: 25px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .card {
