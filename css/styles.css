@@ -189,12 +189,16 @@ h5 {
   padding-left: 24px;
   padding-right: 24px;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 32px;
   letter-spacing: -0.37px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
   .banner-section p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-size: 18px;
   }
 
@@ -283,7 +287,7 @@ h5 {
 .work {
   display: flex;
   flex-direction: column;
-  padding: 80px, 0, 80px, 0;
+  padding: 80px 0px;
   gap: 48px;
   margin: auto;
 }
@@ -303,8 +307,8 @@ h5 {
 #work-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(280px, 370px)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(280px, 370px));
+  -ms-grid-columns: (3, minmax(280px, 370px)) [auto-fit];
+  grid-template-columns: repeat(3, minmax(280px, 370px));
   grid-gap: 25px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -319,7 +323,7 @@ h5 {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 4px;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .card-text {
@@ -608,6 +612,8 @@ h5 {
   .form {
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    padding: 80px 0;
   }
 }
 
@@ -836,4 +842,15 @@ textarea {
     margin-top: 200px;
     margin-bottom: 5px;
   }
+}
+
+.btn-action:hover, button:hover, .btn-primary:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+button:enabled, .btn-action:enabled, .btn-primary:enabled {
+  background: #36b37f;
+  border-radius: 4px;
 }
