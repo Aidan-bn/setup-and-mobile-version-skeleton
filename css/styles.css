@@ -861,3 +861,9 @@ button:enabled,
   background: #36b37f;
   border-radius: 4px;
 }
+
+.btn-action:hover,
+.btn-primary:hover {
+  transform: scale(0.9);
+  border: 1px solid yellow;
+}
