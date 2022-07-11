@@ -33,6 +33,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - Microverse
+- My coding partners and code reviwers
 - Figma
 
 ## 📝 License
