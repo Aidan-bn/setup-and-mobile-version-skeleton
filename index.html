@@ -13,17 +13,21 @@
 </head>
 <body>
     <header>
-       <img src="./images/header-llustration-desktop.png" alt="">
+        <figure>
+            <img src="./images/header-llustration-desktop.png" alt="header image">
+        </figure>
        <div class="sub-header">
            <nav>
                <a href="#" class="logo-wrapper">Welcome</a>
                <div class="humburger-wrapper">
-                   <img src="./images/menuicon.png" alt="">               
+                    <figure>
+                        <img src="./images/menuicon.png" alt="menu icon">
+                    </figure>
                </div>
                <ul>
-                   <li><a href="">Portfolio</a></li>
-                   <li><a href="">About</a></li>
-                   <li><a href="">Contact</a></li>
+                   <li><a href="#">Portfolio</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact</a></li>
                </ul>
            </nav>
            <section class="banner-section">
@@ -36,19 +40,18 @@
                    don’t hestiate to contact me.
                </p>
                <ul class="social">
-                   <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/Linkedin.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/medium.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/github.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/angellist.svg" alt=""></a></li>
+                   <li><a href="https://twitter.com/bantezea"><img src="./images/twitter.svg" alt="twitter icon"></a></li>
+                   <li><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/Linkedin.svg" alt="linkedin icon"></a></li>
+                   <li><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/medium.svg" alt="medium icon"></a></li>
+                   <li><a href="https://github.com/Aidan-bn"><img src="./images/github.svg" alt="github icon"></a></li>
+                   <li><a href="https://github.com/Aidan-bn"><img src="./images/angellist.svg" alt="angellist icon"></a></li>
                </ul>
-               <a href="#targetid" class="arrow-wrapper"><img src="./images/arrow-down.png" alt=""></a>
+               <a href="#targetid" class="arrow-wrapper"><img src="./images/arrow-down.png" alt="drop-down"></a>
            </section>
        </div>        
    </header>
   <main>
        <section class="work">
-
            <div class="work-text">
                <h4>My Recent Works</h4>
            </div>
@@ -56,7 +59,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -74,7 +77,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -92,7 +95,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -110,7 +113,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -128,7 +131,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -146,7 +149,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -161,7 +164,6 @@
                        </div>
                    </div>
                </div>
-
            </div>
        </section>
    </main>
@@ -180,7 +182,7 @@
            <div class="cards-work">
                <div class="figcard">
                    <figure>
-                       <img src="./images/IconsOneDesktop.png" alt="Icon">
+                       <img src="./images/IconsOneDesktop.png" alt="left Icon">
                    </figure>
                </div>
                <div class="languaged">
@@ -200,7 +202,7 @@
            <div class="cards-work">
                <div class="figcard">
                    <figure>
-                       <img src="./images/IconTwoDesktop.png" alt="Icon">
+                       <img src="./images/IconTwoDesktop.png" alt="middle Icon">
                    </figure>
                </div>
                <div class="languaged">
@@ -223,7 +225,7 @@
            <div class="cards-work">
                <div class="figcard">
                    <figure>
-                       <img src="./images/IconThreeDesktop.png" alt="Icon">
+                       <img src="./images/IconThreeDesktop.png" alt="right Icon">
                    </figure>
                </div>
                <div class="languaged">
@@ -253,14 +255,17 @@
        </div>
        <div class="form-details">
            <form action="https://formspree.io/f/xeqnbggn" method="post" class="formd">
-               <input type="text" placeholder="Full Name" name="name" class="name" required>
+               <label for="full-name">Name</label>
+               <input type="text" placeholder="Full Name" name="name" maxlength="30" class="name" required>
+               <label for="email">E-mail</label>
                <input type="email" placeholder="Email address" name="email" class="email" required>
-               <textarea placeholder="Type something" name="textarea" required></textarea>
+               <label for="textarea">Message</label>
+               <textarea placeholder="Type something" name="textarea" id="request" maxlength="500" required></textarea>
                <button class="btn-primary">Get in touch</button>
            </form>
        </div>  
    </section> 
-<section class="footer">
+    <section class="footer">
        <div class="footer-image">
            <figure>
                <img src="./images/bottomleft.svg" alt="imgleft" class="imgleft">
@@ -271,19 +276,18 @@
        <hr class="bottom-line">
        <div class="medias">
            <ul class="ul-socialmedia">
-               <li class="socialists"><a href="https://twitter.com/aidan-bn"><img src="./images/twitter.svg" alt="twitter"></a></li>
-               <li class="socialists"><a href="https://twitter.com/aidan-bn"><img src="./images/Linkedin.svg" alt="linkedin"></a></li>
-               <li class="socialists"><a href="https://maxcdn.com/aidan-bn"><img src="./images/medium.svg" alt="medium"></a></li>
-               <li class="socialists"><a href="https://github.com/aidan-bn"><img src="./images/github.svg" alt="github"></a></li>
-               <li class="socialists"><a href="https://angellist.com/aidan-bn"><img src="./images/angellist.svg" alt="angellist"></a></li>
+               <li class="socialists"><a href="https://twitter.com/bantezea"><img src="./images/twitter.svg" alt="twitter"></a></li>
+               <li class="socialists"><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/Linkedin.svg" alt="linkedin"></a></li>
+               <li class="socialists"><a href="https://github.com/Aidan-bn"><img src="./images/medium.svg" alt="medium"></a></li>
+               <li class="socialists"><a href="https://github.com/Aidan-bn"><img src="./images/github.svg" alt="github"></a></li>
+               <li class="socialists"><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/angellist.svg" alt="angellist"></a></li>
            </ul>
        </div>
-       <div class="email-mobile">
-           <a href="" >bantezea@gmail.com</a>
-       </div>
+            <div class="email-mobile">
+                <a href="" >bantezea@gmail.com</a>
+            </div>
        <div class="mobile-line">
-
-       </div>
+     </div>
    </section>
 </body>
 </html>
