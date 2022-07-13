@@ -126,7 +126,7 @@ h1 span {
 }
 
 h1 span:last-child {
-  color: #36b37f;
+  color: #008552;
 }
 
 h5 {
@@ -401,13 +401,14 @@ h5 {
   gap: 10px;
   width: 122px;
   height: 48px;
-  background: #36b37f;
+  /* background: #36b37f; */
   border-radius: 4px;
   border: 0;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 17px;
-  color: #fff;
+  line-height: 24px;
+  color: #ffffff;
   margin: auto;
 }
 
@@ -504,6 +505,10 @@ h5 {
   .about .p-wrapper::after {
     width: 145px;
   }
+
+  .btn-action {
+    font-weight: inherit;
+  }
 }
 
 .btn {
@@ -511,7 +516,7 @@ h5 {
   padding: 12px;
   margin-bottom: 0;
   display: inline-block;
-  background-color: #fff;
+  background-color: #008552
 }
 
 .cardme {
@@ -572,7 +577,6 @@ h5 {
   /* width: 89px; */
   display: flex;
   gap: 8px;
-
   /* margin-top: 16px; */
   width: 271px;
   height: 40px;
@@ -583,7 +587,7 @@ h5 {
 }
 
 .btn-tag {
-  background: #fff;
+  background: #ffffff;
   border-radius: 4px;
   border: 0;
   width: 89;
@@ -594,13 +598,16 @@ h5 {
 .li-tag-list {
   list-style: none;
   height: 30px;
-  color: #36b37e;
+  color: #008552;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.03em;
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }
 
 .form {
@@ -610,6 +617,16 @@ h5 {
   display: flex;
   padding: 80px 0;
   gap: 24px;
+  overflow-x: hidden;
+}
+
+.form label {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -734,12 +751,12 @@ label {
   width: 129px;
   height: 48px;
   gap: 10px;
-  background: #36b37f;
-  color: #fff;
+  background: #008552;
+  color: #ffffff;
   border-radius: 8px;
   border: 0;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
 }
 
@@ -856,7 +873,7 @@ label {
 .btn-action:hover,
 button:hover,
 .btn-primary:hover {
-  background: #36b37f;
+  background: #008552;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
@@ -864,7 +881,7 @@ button:hover,
 button:enabled,
 .btn-action:enabled,
 .btn-primary:enabled {
-  background: #36b37f;
+  background: #008552;
   border-radius: 4px;
 }
 
