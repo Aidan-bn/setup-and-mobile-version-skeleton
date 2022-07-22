@@ -9,14 +9,17 @@ body {
 }
 
 header {
-  background-image: url(../images/header-illsutration-mobile.png);
+  background-image: url(../images/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100% 91%;
   background-position: 0 60px;
   position: relative;
-  height: 100vh;
+  height: auto;
 }
 
+header .logo {
+  font-size: 18px;
+}
 section .plain {
   display: flex;
 }
@@ -171,7 +174,7 @@ section .plain {
 
   header > img {
     display: block;
-    width: 100%;
+    width: 100vw;
   }
 
   .sub-header {
