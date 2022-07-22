@@ -14,42 +14,58 @@
 <body>
     <header>
          <img src="./images/header-llustration-desktop.png" alt="header image">
-       <div class="sub-header">
-           <nav>
-               <a href="#" class="logo-wrapper">Welcome</a>
-               <div class="humburger-wrapper">
-                    <figure>
+       <div class="sub-header ">
+           <!-- <nav class="nav-header">
+               <div class="nav-toggle">
+                 <a href="#" class="logo-wrapper">Welcome</a>
+                    <figure class="humburger-wrapper" id="navToggle">
                         <img src="./images/menuicon.png" alt="menu icon">
                     </figure>
                </div>
-               <ul>
+               <ul class="hidden-menu menu" id="nav-hidden" >                               ">
                    <li><a href="#">Portfolio</a></li>
                    <li><a href="#">About</a></li>
                    <li><a href="#">Contact</a></li>
-               </ul>
+                   <li class="cross">X</li>
+               </ul> -->
+
+               <div class="header">
+                <nav class="nav-Toggle">
+        
+                    <h1 class="logo">LOGO</h1>
+                    <img id="hamburger" class="nav-icon" src="./images/menuicon.png" alt="icon">
+                </nav>   
+                    <ul class="menu">
+                        <li ><a href="#Portfolio">Portfolio</a></li>
+                        <li ><a href="#aboutme">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="cross">X</li>
+                    </ul>
+                    
+            </div>
            </nav>
-           <section class="banner-section">
-               <h1>
+           <section class="banner-section plain">
+               <h1 class="plain">
                    <span>Hey there. I’m Aidan</span>
                    <span>I’m a software developer</span>
                </h1>
-               <p>
+               <p class="plain">
                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                    don’t hestiate to contact me.
                </p>
-               <ul class="social">
+               <ul class="social plain">
                    <li><a href="https://twitter.com/bantezea"><img src="./images/twitter.svg" alt="twitter icon"></a></li>
                    <li><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/Linkedin.svg" alt="linkedin icon"></a></li>
                    <li><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/medium.svg" alt="medium icon"></a></li>
                    <li><a href="https://github.com/Aidan-bn"><img src="./images/github.svg" alt="github icon"></a></li>
                    <li><a href="https://github.com/Aidan-bn"><img src="./images/angellist.svg" alt="angellist icon"></a></li>
                </ul>
-               <a href="#targetid" class="arrow-wrapper"><img src="./images/arrow-down.png" alt="drop-down"></a>
+               <a href="#targetid" class="arrow-wrapper plain"><img src="./images/arrow-down.png" alt="drop-down"></a>
            </section>
        </div>        
    </header>
   <main>
-       <section class="work">
+       <section class="work" id="Portfolio">
            <div class="work-text">
                <h4>My Recent Works</h4>
            </div>
@@ -165,7 +181,7 @@
            </div>
        </section>
    </main>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
        <div class="about">
            <h4>About me</h4>
            <div class="p-wrapper">
@@ -245,7 +261,7 @@
            </div>
        </div>
    </section>  
-   <section class="form">
+   <section class="form" id="contact">
        <div class="info">
            <p>
                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -287,5 +303,6 @@
        <div class="mobile-line">
      </div>
    </section>
+   <script type="text/javascript" src="./js/javascript.js"></script>
 </body>
 </html>
