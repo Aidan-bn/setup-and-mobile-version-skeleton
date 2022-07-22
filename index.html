@@ -9,46 +9,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" >
-    <title>Portfolio Desktop</title>
+    <title>Aidan's Portfolio</title>
 </head>
 <body>
     <header>
-       <img src="./images/header-llustration-desktop.png" alt="">
-       <div class="sub-header">
-           <nav>
-               <a href="#" class="logo-wrapper">Welcome</a>
-               <div class="humburger-wrapper">
-                   <img src="./images/menuicon.png" alt="">               
-               </div>
-               <ul>
-                   <li><a href="">Portfolio</a></li>
-                   <li><a href="">About</a></li>
-                   <li><a href="">Contact</a></li>
-               </ul>
-           </nav>
+        <img src="./images/header-llustration-desktop.png" alt="header image">
+        <div class="sub-header ">
+            <div class="header">
+                <nav class="nav-Toggle">
+        
+                    <h1 class="logo">Welcome</h1>
+                    <img id="hamburger" class="nav-icon" src="./images/menuicon.png" alt="icon">
+                </nav>   
+                    <ul class="menu">
+                        <li class="hamburger__list-items"><a href="#Portfolio">Portfolio</a></li>
+                        <li class="hamburger__list-items"><a href="#aboutme">About</a></li>
+                        <li class="hamburger__list-items"><a href="#contact">Contact</a></li>
+                        <li class="cross">X</li>
+                    </ul>
+            </div>
            <section class="banner-section">
-               <h1>
+               <h1 >
                    <span>Hey there. I’m Aidan</span>
                    <span>I’m a software developer</span>
                </h1>
-               <p>
+               <p >
                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                    don’t hestiate to contact me.
                </p>
                <ul class="social">
-                   <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/Linkedin.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/medium.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/github.svg" alt=""></a></li>
-                   <li><a href=""><img src="./images/angellist.svg" alt=""></a></li>
+                   <li><a href="https://twitter.com/bantezea"><img src="./images/twitter.svg" alt="twitter icon"></a></li>
+                   <li><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/Linkedin.svg" alt="linkedin icon"></a></li>
+                   <li><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/medium.svg" alt="medium icon"></a></li>
+                   <li><a href="https://github.com/Aidan-bn"><img src="./images/github.svg" alt="github icon"></a></li>
+                   <li><a href="https://github.com/Aidan-bn"><img src="./images/angellist.svg" alt="angellist icon"></a></li>
                </ul>
-               <a href="#targetid" class="arrow-wrapper"><img src="./images/arrow-down.png" alt=""></a>
+               <a href="#targetid" class="arrow-wrapper plain"><img src="./images/arrow-down.png" alt="drop-down"></a>
            </section>
        </div>        
    </header>
   <main>
-       <section class="work">
-
+       <section class="work" id="Portfolio">
            <div class="work-text">
                <h4>My Recent Works</h4>
            </div>
@@ -56,7 +57,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -74,7 +75,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -92,7 +93,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -110,7 +111,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -128,7 +129,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -146,7 +147,7 @@
                <div class="card">
                    <div class="card-text">
                        <div class="post">
-                          <p>Multi-Post Stories<br> Gain + Glory</p>
+                          <h2>Multi-Post Stories<br> Gain + Glory</h2>
                        </div>
                        <div class="tags">
                            <ul class="ul-tags">
@@ -161,11 +162,10 @@
                        </div>
                    </div>
                </div>
-
            </div>
        </section>
    </main>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
        <div class="about">
            <h4>About me</h4>
            <div class="p-wrapper">
@@ -180,7 +180,7 @@
            <div class="cards-work">
                <div class="figcard">
                    <figure>
-                       <img src="./images/IconsOneDesktop.png" alt="Icon">
+                       <img src="./images/IconsOneDesktop.png" alt="left Icon">
                    </figure>
                </div>
                <div class="languaged">
@@ -200,7 +200,7 @@
            <div class="cards-work">
                <div class="figcard">
                    <figure>
-                       <img src="./images/IconTwoDesktop.png" alt="Icon">
+                       <img src="./images/IconTwoDesktop.png" alt="middle Icon">
                    </figure>
                </div>
                <div class="languaged">
@@ -223,7 +223,7 @@
            <div class="cards-work">
                <div class="figcard">
                    <figure>
-                       <img src="./images/IconThreeDesktop.png" alt="Icon">
+                       <img src="./images/IconThreeDesktop.png" alt="right Icon">
                    </figure>
                </div>
                <div class="languaged">
@@ -245,7 +245,7 @@
            </div>
        </div>
    </section>  
-   <section class="form">
+   <section class="form" id="contact">
        <div class="info">
            <p>
                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -253,14 +253,17 @@
        </div>
        <div class="form-details">
            <form action="https://formspree.io/f/xeqnbggn" method="post" class="formd">
-               <input type="text" placeholder="Full Name" name="name" class="name" required>
-               <input type="email" placeholder="Email address" name="email" class="email" required>
-               <textarea placeholder="Type something" name="textarea" required></textarea>
-               <button class="btn-primary">Get in touch</button>
+            <label for="fullname">Fullname</label>
+            <input type="text" placeholder="Full Name" name="name" id="fullname" maxlength="30" class="name" required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email address" name="email" id="email" class="email" required>
+            <label for="request">Textarea</label>
+            <textarea placeholder="Type something" name="textarea" id="request" maxlength="500" required></textarea>
+            <button class="btn-primary">Get in touch</button>
            </form>
        </div>  
    </section> 
-<section class="footer">
+    <section class="footer">
        <div class="footer-image">
            <figure>
                <img src="./images/bottomleft.svg" alt="imgleft" class="imgleft">
@@ -271,19 +274,19 @@
        <hr class="bottom-line">
        <div class="medias">
            <ul class="ul-socialmedia">
-               <li class="socialists"><a href="https://twitter.com/aidan-bn"><img src="./images/twitter.svg" alt="twitter"></a></li>
-               <li class="socialists"><a href="https://twitter.com/aidan-bn"><img src="./images/Linkedin.svg" alt="linkedin"></a></li>
-               <li class="socialists"><a href="https://maxcdn.com/aidan-bn"><img src="./images/medium.svg" alt="medium"></a></li>
-               <li class="socialists"><a href="https://github.com/aidan-bn"><img src="./images/github.svg" alt="github"></a></li>
-               <li class="socialists"><a href="https://angellist.com/aidan-bn"><img src="./images/angellist.svg" alt="angellist"></a></li>
+               <li class="socialists"><a href="https://twitter.com/bantezea"><img src="./images/twitter.svg" alt="twitter"></a></li>
+               <li class="socialists"><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/Linkedin.svg" alt="linkedin"></a></li>
+               <li class="socialists"><a href="https://github.com/Aidan-bn"><img src="./images/medium.svg" alt="medium"></a></li>
+               <li class="socialists"><a href="https://github.com/Aidan-bn"><img src="./images/github.svg" alt="github"></a></li>
+               <li class="socialists"><a href="https://www.linkedin.com/in/aidan-banteze-657973239/"><img src="./images/angellist.svg" alt="angellist"></a></li>
            </ul>
        </div>
-       <div class="email-mobile">
-           <a href="" >bantezea@gmail.com</a>
-       </div>
+            <div class="email-mobile">
+                <a href="" >bantezea@gmail.com</a>
+            </div>
        <div class="mobile-line">
-
-       </div>
+     </div>
    </section>
+   <script type="text/javascript" src="../js/javascript.js"></script>
 </body>
 </html>

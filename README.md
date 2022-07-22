@@ -17,9 +17,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@aidan-bn](https://github.com/aidan-bn)
-- Twitter: [@aidan-bn](https://twitter.com/aidan-bn)
-- LinkedIn: [Aidan-bn](https://linkedin.com/in/aidan-bn)
+- GitHub: [@aidan-bn](https://github.com/Aidan-bn)
+- Twitter: [@aidan-bn](https://twitter.com/bantezea)
+- LinkedIn: [Aidan-bn](https://www.linkedin.com/in/aidan-banteze-657973239/)
 
 ## 🤝 Contributing
 
