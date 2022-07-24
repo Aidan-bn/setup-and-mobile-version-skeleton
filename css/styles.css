@@ -83,7 +83,6 @@ nav .menu {
   z-index: 1;
   position: fixed;
   list-style: none;
-  border: 2px solid #000;
   padding-top: 70px;
 }
 
