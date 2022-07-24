@@ -72,7 +72,6 @@ nav a {
   text-decoration: none;
 }
 
-
 nav .menu {
   display: none;
   flex-direction: column;
@@ -86,17 +85,16 @@ nav .menu {
   list-style: none;
   border: 2px solid #000;
   padding-top: 70px;
-  /* border-left: transparent 20px solid; */
 }
 
 nav ul li {
-  padding: 5px ;
+  padding: 5px;
 }
 
-nav ul li a{
-  padding: 10px 0px;
+nav ul li a {
+  padding: 10px 0;
   text-decoration: none;
-  color: #3A4A42;
+  color: #3a4a42;
   font-size: 32px;
   font-family: 'Inter', sans-serif;
   line-height: 44px;
@@ -105,7 +103,7 @@ nav ul li a{
 
 nav .close {
   position: absolute;
-  top: .2px;
+  top: 0.2px;
   right: 9px;
   cursor: pointer;
 }
@@ -134,27 +132,23 @@ nav .close {
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    
   }
 
   nav ul li {
     margin-left: 15px;
     margin-right: 15px;
     position: relative;
-    
   }
 
   nav ul li a {
     font-weight: 600;
     color: #000;
     font-size: 18px;
-    
   }
 
-  nav .close{
+  nav .close {
     display: none;
   }
-
 }
 
 h1 {
