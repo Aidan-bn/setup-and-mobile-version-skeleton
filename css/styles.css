@@ -865,5 +865,4 @@ button:enabled,
 .btn-action:hover,
 .btn-primary:hover {
   transform: scale(0.9);
-  border: 1px solid yellow;
 }
