@@ -73,8 +73,8 @@ nav a {
 }
 
 
-nav ul {
-  display: flex;
+nav .menu {
+  display: none;
   flex-direction: column;
   width: 100%;
   height: 100vh;
@@ -96,8 +96,11 @@ nav ul li {
 nav ul li a{
   padding: 10px 0px;
   text-decoration: none;
-  color: #28352f;
-  font-size: 18px;
+  color: #3A4A42;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  line-height: 44px;
+  font-weight: 600;
 }
 
 nav .close {
@@ -122,7 +125,7 @@ nav .close {
     display: none;
   }
 
-  nav > ul {
+  nav .menu {
     margin-top: 0;
     padding: 0;
     list-style: none;
@@ -131,17 +134,21 @@ nav .close {
     flex-direction: row;
     justify-content: center;
     position: absolute;
+    
   }
 
   nav ul li {
     margin-left: 15px;
     margin-right: 15px;
     position: relative;
+    
   }
 
   nav ul li a {
     font-weight: 600;
-    color: #172b4d;
+    color: #000;
+    font-size: 18px;
+    
   }
 
   nav .close{
@@ -696,6 +703,7 @@ h5 {
   height: 330px;
   display: flex;
   gap: 24px;
+  padding: 8px;
 }
 
 @media (min-width: 768px) {
