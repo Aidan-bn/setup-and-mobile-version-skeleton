@@ -1,11 +1,12 @@
 # Portfolio: setup and mobile version skeleton
 
-> This is a simple web develoment project for Microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet).
+> This is a simple web develoment project for Microverse created using simple HTML(Hyper text mark-up Language.), CSS(Cascading Style Sheet) and javascript.
 
 ## Built With
 
 - Major languages: html & css
 - Frameworks: none
+- Javascript
 
 ## Live Demo (if available)
 
