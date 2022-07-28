@@ -18,3 +18,34 @@ function hamburger() {
   });
 }
 hamburger();
+
+const btnSubmit = document.getElementById('send');
+const inputEmail = document.getElementById('email');
+const EMAIL_CASE_CHECK = 'Email adress should be in lower case';
+const EMAIL_CHECK = 'Enter valid email';
+const error = document.getElementById('warning');
+
+btnSubmit.addEventListener('click', (e) => {
+  const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const address = inputEmail.value;
+  if (address === address.toLowerCase()) {
+    if (validRegex.test(address)) {
+      error.classList.remove('.alert');
+      error.classList.add('.off-alert');
+    } else {
+      error.innerHTML = `<span id="warning">${EMAIL_CHECK}</span>`;
+      e.preventDefault();
+      error.classList.add('.alert');
+      error.classList.remove('.off-alert');
+    }
+  } else {
+    e.preventDefault();
+    error.innerHTML = `<span id="warning">${EMAIL_CASE_CHECK}</span>`;
+    error.classList.add('.alert');
+    error.classList.remove('.off-alert');
+  }
+  setTimeout(() => {
+    error.classList.remove('.alert');
+    error.classList.add('.off-alert');
+  }, 100);
+});

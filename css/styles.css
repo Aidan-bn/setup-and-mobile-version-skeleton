@@ -782,6 +782,12 @@ textarea {
   display: none;
 }
 
+#warning{
+  color: rgb(250, 5, 5);
+  padding-bottom: 2px;
+  display: block;
+}
+
 @media (min-width: 768px) {
   .bottom-line {
     height: 1px;
