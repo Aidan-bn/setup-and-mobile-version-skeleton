@@ -50,7 +50,6 @@ btnSubmit.addEventListener('click', (e) => {
   }, 100);
 });
 
-// /* const asigned to the element */
 const userName = document.getElementById('fullname');
 const userEmail = document.getElementById('email');
 const userMsg = document.getElementById('message');

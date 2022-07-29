@@ -567,7 +567,7 @@ h5 {
 .cards-work {
   display: flex;
   flex-direction: column;
-  background-image: url(/imagestwo/ImgPlaholderDesk.svg);
+  /* background-image: url(../images/ImgPlaholderDesk.svg); */
   background-color: #ebf0ee;
   border-radius: 8px;
   max-width: 367px;
