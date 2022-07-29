@@ -50,26 +50,22 @@ btnSubmit.addEventListener('click', (e) => {
   }, 100);
 });
 
-// storage
+// /* const asigned to the element */
+const userName = document.getElementById('fullname');
+const userEmail = document.getElementById('email');
+const userMsg = document.getElementById('message');
 
-const information = [];
-const store = (e) => {
-  e.preventDefault();
-  const info = {
-    names: document.getElementById('fullname').value,
-    email: document.getElementById('email').value,
-    message: document.getElementById('message').value,
+changeHandler = () => {
+  const userData = {
+    name: userName.value,
+    email: userEmail.value,
+    msg: userMsg.value,
   };
-
-  information.push(info);
-  // document.forms[0].reset();
-
-  localStorage.setItem('formData', JSON.stringify(information));
+  localStorage.setItem('userInfo', JSON.stringify(userData));
 };
-const feedback = JSON.parse(window.localStorage('formData'));
 
-document.getElementById('fullname').value = feedback.names;
-document.getElementById('email').value = feedback.email
-document.getElementById('message').value = feedback.message;
+const user = JSON.parse(window.localStorage.getItem('userInfo'));
 
-store();
+userName.value = user.name;
+userEmail.value = user.email;
+userMsg.value = user.msg;
