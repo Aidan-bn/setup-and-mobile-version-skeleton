@@ -87,7 +87,7 @@ const getheader = document.querySelector('header');
 const getmenu = document.querySelector('.humburger-wrapper');
 const getclose = document.querySelector('nav ul .closeclass');
 const getli = document.querySelectorAll('nav ul .li-links');
-const getprojbtn = document.querySelector('.work .work-item .btn-primary');
+const getprojbtn = document.querySelectorAll('.work .work-item .btn-primary');
 const getpopupclose = document.querySelector('.popup .closeclass');
 getmenu.addEventListener('click', () => {
   getheader.classList.toggle('active');
