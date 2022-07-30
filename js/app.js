@@ -1,24 +1,3 @@
-// function hamburger() {
-//   const hamburgerMenu = document.getElementsByClassName('nav-icon');
-//   const hamburgerMenuExit = document.getElementsByClassName('close');
-//   const hamburgerMenuItems = document.getElementsByClassName('hamburger-list');
-
-//   hamburgerMenu[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'flex';
-//   });
-
-//   hamburgerMenuExit[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'none';
-//   });
-
-//   [...hamburgerMenuItems].forEach((element) => {
-//     element.addEventListener('click', () => {
-//       document.getElementsByClassName('menu')[0].style.display = 'none';
-//     });
-//   });
-// }
-// hamburger();
-
 const arr = [
   {
     id: 1,
@@ -89,7 +68,7 @@ arr.forEach((item) => {
       <div class="bottom-part">
           <h4>${item.title}</h4>
           <ul>`;
-  let string1 = '';
+  let string1 = " ";
   item.tech.forEach((li) => {
     string1 += `<li><a>${li}</a></li>`;
   });
@@ -108,7 +87,7 @@ const getheader = document.querySelector('header');
 const getmenu = document.querySelector('.humburger-wrapper');
 const getclose = document.querySelector('nav ul .closeclass');
 const getli = document.querySelectorAll('nav ul .li-links');
-const getprojbtn = document.querySelectorAll('.work .work-item .btn-primary');
+const getprojbtn = document.querySelector('.work .work-item .btn-primary');
 const getpopupclose = document.querySelector('.popup .closeclass');
 getmenu.addEventListener('click', () => {
   getheader.classList.toggle('active');
