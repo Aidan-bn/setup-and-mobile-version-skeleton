@@ -1,24 +1,3 @@
-// function hamburger() {
-//   const hamburgerMenu = document.getElementsByClassName('nav-icon');
-//   const hamburgerMenuExit = document.getElementsByClassName('close');
-//   const hamburgerMenuItems = document.getElementsByClassName('hamburger-list');
-
-//   hamburgerMenu[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'flex';
-//   });
-
-//   hamburgerMenuExit[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'none';
-//   });
-
-//   [...hamburgerMenuItems].forEach((element) => {
-//     element.addEventListener('click', () => {
-//       document.getElementsByClassName('menu')[0].style.display = 'none';
-//     });
-//   });
-// }
-// hamburger();
-
 const arr = [
   {
     id: 1,
@@ -89,7 +68,7 @@ arr.forEach((item) => {
       <div class="bottom-part">
           <h4>${item.title}</h4>
           <ul>`;
-  let string1 = '';
+  let string1 = " ";
   item.tech.forEach((li) => {
     string1 += `<li><a>${li}</a></li>`;
   });
